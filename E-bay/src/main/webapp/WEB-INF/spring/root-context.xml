@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="CategoryDAO" class = "com.neu.edu.dao.CategoryDAO"></bean>
+		<bean id="customerDAO" class = "com.neu.edu.dao.CustomerDAO"></bean>
+		<bean id="ProductDAO" class = "com.neu.edu.dao.ProductDAO"></bean>
+		<bean id="OrderDAO" class = "com.neu.edu.dao.OrderDAO"></bean>
+		<bean id = "SupplierDAO" class = "com.neu.edu.dao.SupplierDAO"></bean>
+</beans>
