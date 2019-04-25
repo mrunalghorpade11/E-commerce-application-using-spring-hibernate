@@ -22,19 +22,6 @@ public class Orders {
 	@JoinColumn(name="customer_id")
 	private Customer customer;
 	
-	
-	
-//	@ManyToOne(optional = false, fetch = FetchType.LAZY)
-//	@JoinColumn(name="customer_id")
-//	private int customer_id;
-	
-//	public int getCustomer_id() {
-//		return customer_id;
-//	}
-//	public void setCustomer_id(int customer_id) {
-//		this.customer_id = customer_id;
-//	}
-	
 	private Date date;
 	
 	

@@ -35,17 +35,7 @@ public class Category {
 	
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL,mappedBy="category")
 	List<Product> product ;
-	
-//	@Column
-//	String imagePath;
-//
-//	public String getImagePath() {
-//		return imagePath;
-//	}
-//
-//	public void setImagePath(String imagePath) {
-//		ImagePath = imagePath;
-//	}
+
 
 	
 	public List<Product> getProduct() {

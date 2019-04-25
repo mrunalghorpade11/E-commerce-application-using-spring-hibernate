@@ -63,6 +63,7 @@ public class ProductController {
 		Date date = new Date();
 		orders.setDate(date);
 		orders.setCustomer(customer);
+		
 		//ArrayList<String> gfg = new ArrayList<String>(); 
 		List<Orders> abc = new ArrayList<Orders>();
 		abc.add(orders);
@@ -70,6 +71,15 @@ public class ProductController {
 		
 		
 		orderDao.saveOrder(orders);
+		try {
+		orderDao.sendEmail("mrunal.ghorpade123@gmail.com");
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		
+		
 		return new ModelAndView("orderSuccess");
 		
 	}
