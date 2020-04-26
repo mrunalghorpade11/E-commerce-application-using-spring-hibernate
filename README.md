@@ -1,7 +1,7 @@
 # E-commerse-application-using-spring-hibernate
 This is a generic Ecommerse design build on the Ecommerse database design project. 
 It is build using SpringMVC and Hibernate.
-In this project Seller can add items to the database and Cusomer can view and purchase those items.
+In this project Seller can add items to the database and Customer can view and purchase those items.
 Both Sellers and Customers have their respective logins. 
 Session is maintained for both seller and customers.
 ## setup 
